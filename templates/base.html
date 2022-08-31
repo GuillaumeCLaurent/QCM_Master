@@ -1,0 +1,17 @@
+<!doctype html>
+<head>
+    {% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    <title></title>
+    {% endblock %}
+</head>
+<body>
+    <div class="header">
+      {% block title %}
+      <h1>QCM Master</h1>
+      {% endblock %}
+    </div>
+
+    {% block content %}
+    {% endblock %}
+</body>

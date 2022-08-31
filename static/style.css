@@ -1,0 +1,23 @@
+h2 {
+    color: rgb(200, 100, 23);
+}
+/*
+Color palette
+#DDF8C3
+#C5ECAC
+#A8E1DF
+#88C7DB
+#5D97D1
+*/
+
+body{
+    display: flex;
+}
+
+.header {
+  padding: 10px;
+  text-align: left;
+  background: #5D97D1;
+  color: white;
+  font-size: 10px;
+}
